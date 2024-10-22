@@ -11,62 +11,99 @@
 </head>
 
 <body>
-  <header>
-    <div class="container__header container">
-      <div class="container_header-izquierda">
-        <a href="index.html" class="logo">
-          <img src="img/linkedin.png" alt="linkedin.log" class="logo_img">
-        </a>
-        <form class=" buscar">
-          <a href="#">
-            <i class=' search__icon bx bx-search'></i>
+<header>
+      <div class="header__container container">
+        <div class="header__izquierda">
+          <a href="index.html" class="logo">
+            <img src="img/linkedin.png" alt="logo" class="logo__imagen">
           </a>
-          <input class="input__buscar" type="text" placeholder="buscar">
-        </form>
-      </div>
-      <div class="header__right">
-        <nav class="navegacion">
-          <ul class="lista_navegacion">
-            <li class="navegacion_item navegacion_item--border">
-              <a href="#" class="navegacion_link">
-                <i class='icono_navegacion bx bx-home'></i>
-                <span class="span_navegacion">Inicio</span>
-              </a>
-            </li>
-            <li class="navegacion_item">
-              <a href="#" class="navegacion_link">
-                <i class='icono_navegacion bx bxs-group'></i>
-                <span class="span_navegacion">mi red</span>
-              </a>
-            </li>
-            <li class="navegacion_item">
-              <a href="#" class="navegacion_link">
-                <i class='icono_navegacion bx bx-briefcase'></i>
-                <span class="span_navegacion">empleo</span>
-              </a>
-            </li>
-            <li class="navegacion_item">
-              <a href="#" class="navegacion_link">
-                <i class='icono_navegacion bx bxs-chat'></i>
-                <span class="span_navegacion">mensajes</span>
-              </a>
-            </li>
-            <li class="navegacion_item">
-              <a href="#" class="navegacion_link">
-                <i class='icono_navegacion bx bxs-bell'></i>
-                <span class="span_navegacion">mensajes</span>
-              </a>
-            </li>
-            <div href="#" class="perfil">
+          <form class="buscar">
+            <i class='buscar__icon bx bx-search'></i>
+            <input class="buscar__input" type="text" placeholder="Buscar">
+          </form>
+        </div>
+        <div class="header__right">
+          <nav class="navegacion">
+            <ul class="navegacion__list">
+              <li class="navegacion__item">
+                <a href="" class="navegacion__link active-link">
+                  <i class='navegacion__icon bx bxs-home'></i>
+                  <span class="navegacion__span">Inicio</span>
+                </a>
+              </li>
+              <li class="navegacion__item">
+                <a href="" class="navegacion__link">
+                  <i class='navegacion__icon bx bxs-group'></i>
+                  <span class="navegacion__span">Mi red</span>
+                </a>
+              </li>
+              <li class="navegacion__item">
+                <a href="" class="navegacion__link">
+                  <i class='navegacion__icon bx bxs-briefcase'></i>
+                  <span class="navegacion__span">Empleos</span>
+                </a>
+              </li>
+              <li class="navegacion__item">
+                <a href="" class="navegacion__link">
+                  <i class='navegacion__icon bx bxs-message'></i>
+                  <span class="navegacion__span">Mensajes</span>
+                </a>
+              </li>
+              <li class="navegacion__item">
+                <a href="" class="navegacion__link">
+                  <i class='navegacionn__icon bx bxs-bell'></i>
+                  <span class="navegacion__span">Notificaciones</span>
+                </a>  
+              </li>
+            </ul>
+            <div class="profile">
               <div class="online">
-                <img src="img/victor.png" alt="user" class="user_perfil">
+                <img src="img/victor.png" alt="user" class="profile">
+              </div>
+ 
+              <div class="profile-menuwrap" id="profielMenu">
+                <div class="profilemenu">
+                  <div class="user-info">
+                    <img src="images/user-1.png">
+                    <div>
+                      <h3>Rayan Walton</h3>
+                      <a href="profile.html">Seeyour profile</a>
+                    </div>
+                  </div>
+                  <hr>
+                  <a href="#" class="profile-menu-link">
+                    <img src="images/feedback.png">
+                    <p>Give Feebdack</p>
+                    <span>></span>
+                  </a>
+                  <a href="#" class="profile-menu-link">
+                    <img src="images/setting.png">
+                    <p>Setting & Privacy</p>
+                    <span>></span>
+                  </a>
+                  <a href="#" class="profile-menu-link">
+                    <img src="images/help.png">
+                    <p>Help & Support</p>
+                    <span>></span>
+                  </a>
+                  <a href="#" class="profile-menu-link">
+                    <img src="images/display.png">
+                    <p>Display & Accessiblity</p>
+                    <span>></span>
+                  </a>
+                  <a href="#" class="profile-menu-link">
+                    <img src="images/logout.png">
+                    <p>Logout</p>
+                    <span>></span>
+                  </a>
+                </div>
               </div>
             </div>
-          </ul>
-        </nav>
+            
+          </nav>
+        </div>
       </div>
-    </div>
-  </header>
+    </header>
 
   <div class="content-layout container">
     <aside class="sidebar">
@@ -231,7 +268,7 @@
         </div>
         <div class="actividad">
           <div>
-            <img src="img/pajaro.jpg" class="icon-user ">
+            <img src="img/ñeño.webp" class="icon-user ">
             <img src="img/down-arrow.png" class="flecha-icon">
           </div>
           <div class="publicacion">
@@ -310,56 +347,56 @@
 
 
     <aside class="aside">
-      <div class="sidebar__noticias">
-        <h3>noticias melas
-          <img src="img/more.png">
-        </h3>
-        <a href="#">Mejores formas de programar segun bill gates</a>
-        <span>3d ago . 50,000 readers</span>
+        
+      <div class="sidebar-noticias">
+        <img src="img/more.png" class="informacion">
+        <h3>Trending News</h3>
+        <a href="#">High demand for skilled manpower</a>
+        <span>1d ago &middot; 10,934 readers</span>
 
-        <a href="#">Mejores formas de programar segun bill gates</a>
-        <span>3d ago . 50,000 readers</span>
+        <a href="#">Careers growing horizontally too</a>
+        <span>1d ago &middot; 10,532 readers</span>
 
-        <a href="#">Mejores formas de programar segun bill gates</a>
-        <span>3d ago . 50,000 readers</span>
+        <a href="#">Lees work visa for US, more for UK</a>
+        <span>1d ago &middot; 10,451 readers</span>
 
-        <a href="#">Mejores formas de programar segun bill gates</a>
-        <span>3d ago . 50,000 readers</span>
-        <a href="#" class="readmor">Read more</a>
+        <a href="#">More hiring = higrher confidence?</a>
+        <span>1d ago &middot; 10,122 readers</span>
+
+        <a href="#">Gautam Adani is the word´s third richest</a>
+        <span>1d ago &middot; 10,011 readers</span>
+
+        <a href="#" class="readmore">Read more</a>
       </div>
 
       <div class="sticky">
         <div class="ad">
-          <h5>Ad ...</h5>
+          <small>Ad &middot; &middot; &middot;</small>
           <p>Master teh 5 principles of web desing</p>
           <div>
-            <img src="img/victor.png" alt="">
-            <img src="img/mi-logo.png" alt="">
+            <img src="img/victor.png">
+            <img src="img/mi-logo.png">
           </div>
-          <b>brand and demand in xiaomi</b>
-          <div>
-            <a href="#" class="ad-link">Learn more</a>
-          </div>
-          <div class="sidebar-msj">
-            <a href="#">about</a>
-            <a href="#">accesibility</a>
-            <a href="#">Help center</a>
-            <a href="#">privacy policy</a>
-            <a href="#">adversitising</a>
-            <a href="#">get tge app</a>
-            <a href="#">more</a>
-            <div class="copyrigth">
-              <img src="img/linkedin.png" alt="">
-              <p>Linkedup © 2022. All right reserved</p>
-            </div>
+          <b>Brand and Demand in Xiaomi</b>
+          <a href="#" class="ad-link">Learn more</a>
+        </div>
+
+        <div class="links">
+          <a href="#">About</a>
+          <a href="#">Accessiblity</a>
+          <a href="#">Help Center</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Advertising</a>
+          <a href="#">Get the App</a>
+          <a href="#">More</a>
+          <div class="msg">
+            <img src="img/linkedin.png">
+            <p>Linkedup &#169; 2022. All right reserved</p>
           </div>
         </div>
       </div>
-    </aside>
-  </div>
-  </div>
   </aside>
-  </div>
+</div>
 </body>
 
 </html>
