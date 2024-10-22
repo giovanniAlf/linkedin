@@ -247,10 +247,107 @@ body {
   border-radius: 50%;
   margin-right: 15px;
 }
+/* Estilos generales para el menú desplegable */
+.profile-menuwrap {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: rgb(37, 37, 37);
+
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  width: 250px;
+  z-index: 100;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.profilemenu {
+  padding: 20px;
+  color: #ffffff; /* Texto blanco */
+  background-color: rgb(37, 37, 37);
+}
+
+.profilemenu .info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profilemenu .info img {
+  border-radius: 50%; /* Imagen de perfil circular */
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.profilemenu h3 {
+  margin: 0;
+  font-size: 16px;
+  color: #ffffff; /* Texto blanco */
+}
+
+.profilemenu a {
+  color: white; /* Color del enlace */
+  text-decoration: none;
+  font-size: 12px;
+}
+/* .perfilito{
+
+ color:  #c9dbf8;
+
+} */
+
+.profilemenu hr {
+  border: 0.5px solid white;
+  margin: 10px 0;
+}
+
+.profile-menu-link {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  color: #ffffff;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.profile-menu-link:hover {
+  background-color: #2e2e2e; /* Cambio de color al pasar por encima */
+  border-radius: 4px;
+}
+
+.profile-menu-link img {
+  width: 24px; /* Tamaño del icono */
+  margin-right: 15px;
+}
+
+.profile-menu-link p {
+  flex: 1;
+  margin: 0;
+  font-size: 15px;
+}
+
+.profile-menu-link span {
+  color: #0077b5; /* Flecha con el mismo color del enlace */
+}
+.menu-toggle {
+  display: none;
+}
+
+/* Estilos para mostrar el menú cuando el checkbox está marcado */
+.menu-toggle:checked ~ .profile-menuwrap {
+  display: block;
+  max-height: 500px; /* Ajusta según el contenido */
+}
+
+.profile img {
+  cursor: pointer;
+}
 
 
-
-/* sidebar */
+/* SIDEBAR */
 .sidebar-perfil-link {
   display: flex;
   align-items: center;

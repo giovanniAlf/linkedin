@@ -11,99 +11,100 @@
 </head>
 
 <body>
-<header>
-      <div class="header__container container">
-        <div class="header__izquierda">
-          <a href="index.html" class="logo">
-            <img src="img/linkedin.png" alt="logo" class="logo__imagen">
-          </a>
-          <form class="buscar">
-            <i class='buscar__icon bx bx-search'></i>
-            <input class="buscar__input" type="text" placeholder="Buscar">
-          </form>
-        </div>
-        <div class="header__right">
-          <nav class="navegacion">
-            <ul class="navegacion__list">
-              <li class="navegacion__item">
-                <a href="" class="navegacion__link active-link">
-                  <i class='navegacion__icon bx bxs-home'></i>
-                  <span class="navegacion__span">Inicio</span>
-                </a>
-              </li>
-              <li class="navegacion__item">
-                <a href="" class="navegacion__link">
-                  <i class='navegacion__icon bx bxs-group'></i>
-                  <span class="navegacion__span">Mi red</span>
-                </a>
-              </li>
-              <li class="navegacion__item">
-                <a href="" class="navegacion__link">
-                  <i class='navegacion__icon bx bxs-briefcase'></i>
-                  <span class="navegacion__span">Empleos</span>
-                </a>
-              </li>
-              <li class="navegacion__item">
-                <a href="" class="navegacion__link">
-                  <i class='navegacion__icon bx bxs-message'></i>
-                  <span class="navegacion__span">Mensajes</span>
-                </a>
-              </li>
-              <li class="navegacion__item">
-                <a href="" class="navegacion__link">
-                  <i class='navegacionn__icon bx bxs-bell'></i>
-                  <span class="navegacion__span">Notificaciones</span>
-                </a>  
-              </li>
-            </ul>
-            <div class="profile">
-              <div class="online">
-                <img src="img/victor.png" alt="user" class="profile">
-              </div>
- 
-              <div class="profile-menuwrap" id="profielMenu">
-                <div class="profilemenu">
-                  <div class="user-info">
-                    <img src="images/user-1.png">
-                    <div>
-                      <h3>Rayan Walton</h3>
-                      <a href="profile.html">Seeyour profile</a>
-                    </div>
+  <header>
+    <div class="header__container container">
+      <div class="header__izquierda">
+        <a href="index.html" class="logo">
+          <img src="img/linkedin.png" alt="logo" class="logo__imagen">
+        </a>
+        <form class="buscar">
+          <i class='buscar__icon bx bx-search'></i>
+          <input class="buscar__input" type="text" placeholder="Buscar">
+        </form>
+      </div>
+      <div class="header__right">
+        <nav class="navegacion">
+          <ul class="navegacion__list">
+            <li class="navegacion__item">
+              <a href="" class="navegacion__link active-link">
+                <i class='navegacion__icon bx bxs-home'></i>
+                <span class="navegacion__span">Inicio</span>
+              </a>
+            </li>
+            <li class="navegacion__item">
+              <a href="" class="navegacion__link">
+                <i class='navegacion__icon bx bxs-group'></i>
+                <span class="navegacion__span">Mi red</span>
+              </a>
+            </li>
+            <li class="navegacion__item">
+              <a href="" class="navegacion__link">
+                <i class='navegacion__icon bx bxs-briefcase'></i>
+                <span class="navegacion__span">Empleos</span>
+              </a>
+            </li>
+            <li class="navegacion__item">
+              <a href="" class="navegacion__link">
+                <i class='navegacion__icon bx bxs-message'></i>
+                <span class="navegacion__span">Mensajes</span>
+              </a>
+            </li>
+            <li class="navegacion__item">
+              <a href="" class="navegacion__link">
+                <i class='navegacion__icon bx bxs-bell'></i>
+                <span class="navegacion__span">Notificaciones</span>
+              </a>  
+            </li>
+          </ul>
+  
+          <!-- Menú desplegable del perfil -->
+          <div class="profile">
+            <label for="menu-toggle" class="online">
+              <img src="img/victor.png" alt="user" class="profile">
+            </label>
+  
+            <!-- Input de tipo checkbox para controlar el menú -->
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+  
+            <!-- Menú desplegable -->
+            <div class="profile-menuwrap">
+              <div class="profilemenu">
+                <div class="info">
+                  <img src="img/victor.png">
+                  <div>
+                    <h3>Victor</h3>
+                    <a href="perfil.html" >Ver perfil</a>
                   </div>
-                  <hr>
-                  <a href="#" class="profile-menu-link">
-                    <img src="images/feedback.png">
-                    <p>Give Feebdack</p>
-                    <span>></span>
-                  </a>
-                  <a href="#" class="profile-menu-link">
-                    <img src="images/setting.png">
-                    <p>Setting & Privacy</p>
-                    <span>></span>
-                  </a>
-                  <a href="#" class="profile-menu-link">
-                    <img src="images/help.png">
-                    <p>Help & Support</p>
-                    <span>></span>
-                  </a>
-                  <a href="#" class="profile-menu-link">
-                    <img src="images/display.png">
-                    <p>Display & Accessiblity</p>
-                    <span>></span>
-                  </a>
-                  <a href="#" class="profile-menu-link">
-                    <img src="images/logout.png">
-                    <p>Logout</p>
-                    <span>></span>
-                  </a>
                 </div>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                  <img src="img/feedback.png">
+                  <p>give feedback</p>
+                </a>
+                <a href="#" class="profile-menu-link">
+                  <img src="img/setting.png">
+                  <p>settings and privacity</p>
+                </a>
+                <a href="#" class="profile-menu-link">
+                  <img src="img/help.png">
+                  <p>help and support</p>
+                </a>
+                <a href="#" class="profile-menu-link">
+                  <img src="img/display.png">
+                  <p>Accessiblity</p>
+                </a>
+                <a href="#" class="profile-menu-link">
+                  <img src="img/logout.png">
+                  <p>log out</p>
+                </a>
               </div>
             </div>
-            
-          </nav>
-        </div>
+          </div>
+        </nav>
       </div>
-    </header>
+    </div>
+  </header>
+  
 
   <div class="content-layout container">
     <aside class="sidebar">
