@@ -1,0 +1,68 @@
+:root {
+    --aside-bg-color: #fff;
+    --padding-standard: 15px;
+    --font-size-small: 12px;
+    --font-size-medium: 14px;
+    --font-size-large: 18px;
+    --font-weight-light: 500;
+    --font-weight-bold: 600;
+    --primary-color: #2874b1;
+    --secondary-color: #333;
+    --menu-bg-color: #222;
+    --menu-link-color: #fff;
+    --menu-link-hover-color: #c9dbf8;
+    --profile-pic-size-small: 18px;
+    --profile-pic-size-medium: 35px;
+    --profile-pic-size-large: 50px;
+    --sticky-top-offset: 73px;
+
+    /* main */
+
+    --main-bg-color: #fff;
+    --padding-standard: 20px 25px;
+    --padding-small: 10px;
+    --font-size-small: 12px;
+    --font-size-medium: 13px;
+    --font-size-large: 14px;
+    --font-size-xlarge: 18px;
+    --font-weight-light: 500;
+    --font-weight-bold: 600;
+    --primary-color: #2874b1;
+    --secondary-color: #222;
+    --border-color: #ccc;
+    --icon-size-small: 12px;
+    --icon-size-medium: 18px;
+    --icon-size-large: 35px;
+
+
+        /* menuwrap */
+  --profile-menu-bg: #222;
+  --profile-menu-text-color: #fff;
+  --profile-link-hover-bg: #2e2e2e;
+  --profile-info-color: #c9dbf8;
+  --transition-duration: 0.5s;
+
+
+    /* sidebar */
+
+  --sidebar-bg: #ffffff;
+  --sidebar-border-color: #ccc;
+  --sidebar-text-color: #888;
+  --sidebar-hover-bg: #edf3f8;
+  --sidebar-header-color: #777;
+  --sidebar-info-bg: #dfdddd;
+  --sidebar-info-text-color: #222;
+  --sidebar-info-subtext-color: #777;
+  --sidebar-link-color: #2874b1;
+
+
+
+
+
+
+
+
+
+
+  }
+  

@@ -1,0 +1,156 @@
+
+
+.profile-main {
+  padding-top: var(--spacing-padding);
+  grid-area: main;
+}
+
+.contenedor-perfil {
+  background-color: var(--bg-color-white);
+}
+
+.contenedor-perfil__inn {
+  padding: 0 4% var(--spacing-margin);
+}
+
+.photo {
+  width: 150px;
+  border-radius: 50%;
+  margin-top: -75px;
+  padding: 5px;
+  background-color: var(--bg-color-white);
+}
+
+.contenedor-perfil h1 {
+  font-size: 28px;
+  font-weight: var(--font-weight-bold);
+  color: var(--text-color-dark);
+}
+
+.contenedor-perfil b {
+  font-weight: var(--font-weight-semi-bold);
+}
+
+.contenedor-perfil p {
+  margin-top: 5px;
+}
+
+.contenedor-perfil p a {
+  color: var(--text-color-blue);
+}
+
+.conexion-mutua {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.conexion-mutua img {
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.boton__perfil {
+  margin: 20px 0;
+}
+
+.boton__perfil a {
+  display: inline-flex;
+  align-items: center;
+  background-color: var(--bg-color-light-gray);
+  padding: 6px 15px;
+  border-radius: var(--border-radius);
+  margin-right: var(--spacing-margin);
+}
+
+.boton__perfil .boton__principal {
+  background-color: var(--text-color-blue);
+  color: var(--bg-color-white);
+}
+
+.descripcion__perfil {
+  background-color: var(--bg-color-white);
+  padding: 20px 4% 30px;
+  margin: 12px 0;
+}
+
+.descripcion__perfil h2 {
+  color: var(--text-color-gray);
+  margin: 10px 0 20px;
+}
+
+.ver__mas-ingles {
+  display: block;
+  text-align: right;
+  font-size: 15px;
+}
+
+.row__perfil {
+  display: flex;
+  align-items: flex-start;
+  margin: 20px 0;
+}
+
+.row__perfil img {
+  width: 50px;
+  margin-right: 25px;
+  margin-top: 5px;
+}
+
+.row__perfil div {
+  width: 100%;
+}
+
+.row__perfil h3 {
+  font-size: 18px;
+  font-weight: var(--font-weight-bold);
+  color: var(--text-color-gray);
+}
+
+.row__perfil b {
+  display: block;
+  font-weight: var(--font-weight-semi-bold);
+  font-size: 15px;
+}
+
+.row__perfil p {
+  margin-top: 15px;
+}
+
+.row__perfil hr {
+  border: 0;
+  border-bottom: 1px solid #999;
+  margin-top: 10px;
+}
+
+.experiencia__laboral {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  font-weight: var(--font-weight-semi-bold);
+}
+
+.experiencia__laboral img {
+  width: 20px;
+  margin-left: 8px;
+}
+
+.aprendizajes,
+.idioma {
+  display: inline-block;
+  margin: 10px 5px;
+  padding: 6px 18px;
+  border-radius: 30px;
+  font-size: 12px;
+  font-weight: var(--font-weight-semi-bold);
+}
+
+.aprendizajes {
+  border: 1px solid #777;
+}
+
+.idioma {
+  background-color: var(--bg-color-light-gray);
+}

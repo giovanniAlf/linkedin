@@ -1,0 +1,123 @@
+
+.aside {
+  grid-area: aside;
+  /* padding-top: 58px; */
+}
+
+.sticky {
+  position: fixed;
+  top: 75px;
+}
+
+.ad {
+  background-color: var(--main-bg-color);
+  padding: var(--main-padding);
+  text-align: center;
+  margin: var(--main-margin);
+  font-size: var(--font-size-small);
+}
+
+.ad img {
+  width: 60px;
+  border-radius: var(--border-radius-circle);
+  margin: 4px;
+}
+
+.ad small {
+  float: right;
+  font-weight: var(--font-weight-regular);
+}
+
+.ad p {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.ad b {
+  display: block;
+  font-weight: var(--font-weight-regular);
+  margin-top: 10px;
+}
+
+.ad-link {
+  display: inline-block;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-pill);
+  padding: var(--ad-padding);
+  color: var(--main-link-color);
+  font-weight: var(--font-weight-regular);
+  margin: var(--ad-margin);
+}
+
+.links {
+  padding: var(--main-padding);
+  text-align: center;
+}
+
+.links a {
+  display: inline-block;
+  font-size: var(--font-size-medium);
+  margin: 4px 2px;
+}
+
+.msg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-small);
+  margin-top: 10px;
+  font-weight: var(--font-weight-regular);
+}
+
+.msg img {
+  width: 18px;
+  margin-right: 4px;
+}
+
+.profile-sidebar .sidebar-ad {
+  margin: 0;
+}
+
+.sidebar-people {
+  background-color: var(--main-bg-color);
+  padding: var(--main-padding);
+  margin: var(--main-margin);
+  font-size: var(--font-size-small);
+}
+
+.sidebar-people h3 {
+  font-size: var(--font-size-large);
+  font-weight: var(--font-weight-bold);
+  margin: 10px 0 20px;
+}
+
+.sidebar-people-row {
+  display: flex;
+  align-items: flex-start;
+  margin: 6px 0;
+}
+
+.sidebar-people-row img {
+  width: 40px;
+  border-radius: var(--border-radius-circle);
+  margin-right: 8px;
+  margin-top: 5px;
+}
+
+.sidebar-people-row h2 {
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-large);
+}
+
+.sidebar-people-row a {
+  display: inline-block;
+  margin: 10px 0;
+  padding: var(--link-padding);
+  border: 1px solid var(--link-border-color);
+  border-radius: var(--border-radius-pill);
+  font-weight: var(--font-weight-regular);
+}
+
+.profile-footer {
+  grid-area: profile-footer;
+}
